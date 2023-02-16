@@ -1,0 +1,85 @@
+.modalWrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.editTask {
+  position: relative;
+  /* width: 350px; */
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.closeBtn {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editTaskText {
+  display: block;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+.editTaskApprove {
+  width: 162px;
+  padding: 19px;
+  margin-bottom: 10px;
+  background-color: var(--red22);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+}
+
+.editTaskCancel {
+  border-bottom: 1px solid var(--black);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+.editTaskForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.editTaskInput {
+  width: 370px;
+  padding: 19px 15px;
+  margin-bottom: 25px;
+  background-color: var(--grayF4);
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+

@@ -1,0 +1,68 @@
+@keyframes bar {
+  0% {
+    transform-origin: bottom;
+    transform: scaleY(0);
+  }
+
+  100% {
+    transform-origin: bottom;
+    transform: scaleY(1);
+  }
+}
+
+.barWrapper {
+  position: relative;
+  width: 77px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  cursor: pointer;
+}
+
+.bar {
+  width:100%;
+  background-color: var(--red79);
+  transition: background-color .2s ease-in-out;
+  animation: bar .5s normal;
+}
+
+.barFocus {
+  width:100%;
+  background-color: var(--red22);
+  transition: background-color .2s ease-in-out;
+  animation: bar .5s normal;
+}
+
+.barDay,
+.barDayFocus {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  padding: 0 23px;
+  transform: translateX(-50%);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  transition: calor .2s ease-in-out;
+}
+
+.barDay {
+  color: var(--grey99);
+}
+
+.barDayFocus {
+  color: var(--red22);
+}
+
+.barWrapper:focus .bar,
+.barWrapper:hover .bar,
+.barWrapper:active .bar {
+  background-color: var(--red5D);
+}
+
+.barWrapper:focus .barDay,
+.barWrapper:hover .barDay,
+.barWrapper:active .barDay {
+  color: var(--red5D);
+}

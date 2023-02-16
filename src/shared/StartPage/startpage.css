@@ -1,0 +1,118 @@
+.modalWrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--red0C);
+}
+
+.logoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  margin-bottom: 25px;
+}
+
+.pomodoroBox {
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.enterForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  padding: 25px 90px;
+  background-color: var(--red0F);
+}
+
+.formTitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.input {
+  width: 370px;
+  padding: 19px 15px;
+  background-color: var(--white);
+  outline: none;
+  border: none;
+}
+
+.submitBtn {
+  width: 256px;
+  padding: 19px;
+  background-color: var(--green4F);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+}
+
+.checkText {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 24px;
+  color: var(--white);
+}
+
+.check {
+  position: relative;
+  user-select: none;
+}
+
+.checkBox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkBox + .checkMark svg {
+  opacity: 0;
+  transition: opacuty .2s ease-in-out;
+}
+
+.checkBox:checked + .checkMark svg {
+  opacity: 1;
+}
+
+.checkMark {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14px;
+  height: 14px;
+  border: 1px solid var(--white);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.inputError {
+  margin-top: -17px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+}

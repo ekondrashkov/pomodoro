@@ -1,0 +1,29 @@
+.addInput {
+  width: 370px;
+  padding: 19px 15px;
+  margin-bottom: 25px;
+  background-color: var(--grayF4);
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+.addBtn {
+  width: 170px;
+  background-color: var(--green4F);
+  font-weight: 500;
+  padding: 19px 0;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+  transition: background-color .2s ease-in-out;
+}
+
+.addBtn:focus-visible,
+.addBtn:hover,
+.addBtn:active {
+  background-color: var(--green41);
+}

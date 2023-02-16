@@ -1,0 +1,41 @@
+.tasksWrapper {
+  max-width: 530px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 3px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--black);
+}
+
+.instructionList {
+  margin-bottom: 25px;
+  padding-left: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 33px;
+}
+
+.instructionItem::marker {
+  color: var(--red22);
+}
+
+.list {
+  width: 370px;
+  padding-top: 25px;
+  list-style: none;
+}
+
+.overallTime {
+  display: block;
+  width: 370px;
+  padding-top: 19px;
+  border-top: 1px solid var(--grayE4);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--grey99);
+}

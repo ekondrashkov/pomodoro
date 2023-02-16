@@ -1,0 +1,124 @@
+.taskWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.taskHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 40px;
+  background-color: var(--greyC4);
+}
+
+.taskPomName {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+}
+
+.taskPomNum {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+}
+
+.timer {
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--grayF4);
+}
+
+.timeWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.time {
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 179px;
+  color: var(--black);
+  user-select: none;
+}
+
+.addTimeBtn {
+  position: absolute;
+  right: -75px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--greyC4);
+  transition: background-color .2s ease-in-out;
+}
+
+.addTimeBtn:focus-visible,
+.addTimeBtn:hover,
+.addTimeBtn:active {
+  background-color: var(--green41);
+}
+
+.taskDescr {
+  margin-bottom: 32px;
+}
+
+.taskNum {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--grey99);
+}
+
+.taskName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--black);
+}
+
+.handlers {
+  display: flex;
+  flex-direction: row;
+}
+
+.btnStart {
+  width: 145px;
+  padding: 19px;
+  margin-right: 25px;
+  background-color: var(--green4F);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--white);
+  transition: background-color .2s ease-in-out;
+}
+
+.btnStart:focus-visible,
+.btnStart:hover,
+.btnStart:active {
+  background-color: var(--green41);
+}
+
+.btnStop {
+  width: 145px;
+  padding: 17px;
+  border: 2px solid var(--greyC4);
+  background-color: var(--white);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: var(--greyC4);
+}

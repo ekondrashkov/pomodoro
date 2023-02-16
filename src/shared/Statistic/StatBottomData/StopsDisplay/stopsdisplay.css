@@ -1,0 +1,59 @@
+.statWrapepr {
+  width: 100%;
+  height: 100%;
+}
+
+.statStops {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  background-color: var(--grayF4);
+}
+
+.statStopsColor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  background-color: var(--blueFF);
+}
+
+.textTitle {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--black);
+}
+
+.textValue {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 76px;
+  color: var(--black);
+}
+
+.iconBlock,
+.iconBlockColor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 129px;
+  height: 100%;
+}
+
+.iconBlock svg {
+  stroke: var(--greyC4);
+}
+
+.iconBlockColor svg {
+  stroke: var(--blueD7);
+}

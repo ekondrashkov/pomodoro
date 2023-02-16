@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --black:          #333333;
+  --red22:          #DC3E22;
+  --red0F:          #B7280F;
+  --red79:          #EA8A79;
+  --red5D:          #EE735D;
+  --red0C:          #9F210C;
+  --green4F:        #A8B64F;
+  --green41:        #899441;
+  --white:          #FFFFFF;
+  --grayF4:         #F4F4F4;
+  --grayE4:         #E4E4E4;
+  --greyC4:         #C4C4C4;
+  --grey99:         #999999;
+  --greyEC:         #ECECEC;
+  --greyDE:         #DEDEDE;
+  --yellowA9:       #FFDDA9;
+  --yellow35:       #FFAE35;
+  --purpleFE:       #DFDCFE;
+  --purpleD7:       #9C97D7;
+  --blueFF:         #C5F1FF;
+  --blueD7:         #7FC2D7;
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--white);
+  font-size: 14px;
+  line-height: 16px;
+  font-family: 'Roboto', serif;
+}
+
+* {
+  color: var(--black);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.text-red {
+  color: var(--red22) !important;
+}
+
+.text-green {
+  color: var(--green4F) !important;
+}
+
+.background-red {
+  background-color: var(--red22) !important;
+}
+
+.background-green {
+  background-color: var(--green4F) !important;
+}
+
+.redBtn {
+  border: 2px solid var(--red22) !important;
+  color: var(--red22) !important;
+  transition: border .2s ease-in-out, background-color .2s ease-in-out, color .2s ease-in-out;
+}
+
+.redBtn:focus-visible,
+.redBtn:hover,
+.redBtn:active {
+  border: 2px solid var(--red22);
+  background-color: var(--red22);
+  color: var(--white) !important;
+}

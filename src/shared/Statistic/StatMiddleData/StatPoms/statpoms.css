@@ -1,0 +1,32 @@
+.pomsWrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.pomsQuantityPic {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 15px;
+  width: 100%;
+  height: calc(100% - 51px);
+}
+
+.pomsQuantity {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--grey99);
+}
+
+.pomsQuantityText {
+  width: 100%;
+  padding: 9px 0;
+  background-color: var(--red22);
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: var(--white);
+}
